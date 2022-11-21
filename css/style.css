@@ -1,0 +1,254 @@
+ /*RESET*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* GENERALI */
+header{
+    width: 100vw;
+}
+ .container-big{
+    max-width: 70%;
+    margin: 0 auto;
+ }
+ .container-smoll{
+    max-width: 60%;
+    margin: 0 auto;
+ }
+ section{
+    margin-top: 60px;
+ }
+ .my-btn{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+ /* HEADER */
+/*HEADER-TOP */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 0;
+}
+.header-top div ul li{
+    display: inline-block;
+    padding: 5px 15px;
+}
+.header-top div ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: black;
+}
+.nav-dx-header{
+    margin-right: 10px;
+}
+.nav-sx-header{
+    margin-left: 10px;
+}
+
+/* HEADER-BOTTOM */
+.header-bottom{
+    padding-top: 50px;
+}
+.doppio-header-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.content-header{
+    width: 40%;
+}
+.img-header{
+    height: calc(100% + 20px);
+    width: 60%;
+}
+.doppio-header-bottom div a{
+    margin-top: 30px;
+}
+.content-header ul li{
+    padding-top: 40px;
+    list-style: none;
+}
+.link-black{
+    color: black;
+    text-decoration: none;
+}
+/* MAIN */
+
+ .title-main-head span{
+    padding-right: 20px;
+}
+.title-main-head h2{
+    padding: 20px 0;
+}
+.items-main-head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.items-main-head div{
+    width: 30%;
+}
+.bottom-section-one{
+    margin-top: 30px;
+}
+
+/* SECTION-TWO */
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-section-two{
+    width: 60%;
+}
+.content-section-two{
+    width: 40%;
+    padding: 30px;
+}
+.items-section-three{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items-section-three >*{
+   width: 30%;
+   margin-top: 30px;
+}
+.title-section-four h2{
+    padding-bottom: 30px;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.partners >div{
+    width: calc(100% / 3);
+}
+.bottom-section-four{
+    background-color: lightskyblue;
+}
+.content-section-four{
+    display: flex;
+    padding: 60px 0;
+}
+.content-section-four >*{
+    width: 50%;
+}
+.content-section-four span {
+    text-align: right;
+}
+.content-section-four span button{
+   padding: 10px;
+   border: none;
+}
+.content-section-four button a{
+    text-decoration: none;
+    color: black;
+}
+.titolo-footer-main{
+    padding-bottom:20px ;
+}
+.footer-main{
+    padding-bottom: 80px;
+}
+.items-footer-main p{
+    padding: 20px 0;
+}
+.items-footer-main div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.footer-top >div{
+    width: 20%;
+}
+.footer-bottom{
+    padding-bottom: 30px;
+}
+.footer-bottom span{
+    padding-top: 20px;
+    border-top: 2px solid white;
+}
+
+
+
+
+
+
+ /* DEBUG */
+ .debug .border{
+    border: 1px dashed black;
+ }
+ .debug header{
+    background-color:lightgray;
+ }
+ .debug .header-top div ul li{
+    border: 1px dashed red;
+    background-color: aqua;
+ }
+ .debug .header-bottom{
+    background-color: lightskyblue;
+ }
+ .debug .doppio-header-bottom{
+    height: 300px;
+}
+.debug .content-header{
+    background-color: lightsalmon;
+}
+.debug .img-header{
+    background-color: lightgreen;
+}
+.debug .items-main-head div{
+    border: 1px dashed red;
+    height: 400px;
+    background-color: lightpink;
+}
+.debug .title-main-head{
+    background-color: lightslategray;
+}
+.debug .bottom-section-one{
+    background-color: violet;
+    height: 200px;
+}
+.debug .img-section-two{
+    background-color:red ;
+    height: 300px;
+}
+.debug .content-section-two{
+    background-color:rgb(42, 164, 55) ;
+    height: 300px;
+}
+.debug .section-three h2{
+    background-color: lightgoldenrodyellow;
+}
+.debug .items-section-three >*{
+   background-color: rgb(128, 163, 175);
+ }
+ .debug .partners >div{
+    height: 400px;
+    background-color: lightgreen;
+    border: 1px dashed red;
+}
+.debug .footer-top >div{
+    height: 200px;
+    border: 1px dashed white;
+}
+
+ 
