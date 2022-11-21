@@ -6,6 +6,9 @@
  }
 
  /* GENERALI */
+ body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
 header{
     width: 100vw;
 }
@@ -18,13 +21,16 @@ header{
     margin: 0 auto;
  }
  section{
-    margin-top: 60px;
+    margin: 60px 0;
  }
  .my-btn{
     background-color: blue;
     color: white;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 3px 10px;
+    border: none;
+    cursor: po;
+    
 }
 
  /* HEADER */
@@ -35,38 +41,53 @@ header{
     align-items: center;
     width: 100vw;
     padding: 10px 0;
+    font-size: 13px;
 }
 .header-top div ul li{
     display: inline-block;
-    padding: 5px 15px;
+    padding: 5px 10px;
+    vertical-align: middle;
 }
 .header-top div ul li a{
     text-decoration: none;
-    padding: 5px 15px;
-    color: black;
+    padding: 5px;
+    color:gray;
 }
 .nav-dx-header{
     margin-right: 10px;
 }
-.nav-sx-header{
-    margin-left: 10px;
+.nav-sx-header ul li img{
+    width: 100px;
 }
 
 /* HEADER-BOTTOM */
 .header-bottom{
-    padding-top: 50px;
+    padding-top: 60px;
+    background-color:#b4d0e7;
+}
+.title-header-bottom{
+    font-size: 35px;
 }
 .doppio-header-bottom{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    height: 300px;
 }
 .content-header{
-    width: 40%;
+    width: 35%;
+}
+.content-header{
+    font-size: 13px;
+}
+.btn-header-bottom{
+    padding: 10px;
 }
 .img-header{
-    height: calc(100% + 20px);
-    width: 60%;
+    width: 65%;
+}
+.img-header img{
+    width: 100%;
 }
 .doppio-header-bottom div a{
     margin-top: 30px;
@@ -78,25 +99,55 @@ header{
 .link-black{
     color: black;
     text-decoration: none;
+    font-size: 40px;
 }
 /* MAIN */
 
- .title-main-head span{
-    padding-right: 20px;
+.special-section-one{
+   padding-right: 25px;
 }
 .title-main-head h2{
-    padding: 20px 0;
+    padding: 40px 0;
+    font-size: 35px;
+}
+.circle-blue{
+    border: 4px solid blue;
+}
+.circle-gray{
+    border: 2px solid lightgray;
+}
+.circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.items-section-one{
+    font-size: 11px;
 }
 .items-main-head{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
-.items-main-head div{
+.item-section-one{
     width: 30%;
+    border: 1px solid lightgray;
+    font-size: 11px;
+    padding-top: 15px;
+}
+.smoll-row{
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+.leo >*{
+    padding: 20px;
 }
 .bottom-section-one{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 /* SECTION-TWO */
@@ -146,8 +197,8 @@ header{
     text-align: right;
 }
 .content-section-four span button{
-   padding: 10px;
-   border: none;
+    padding: 10px;
+    border: none;
 }
 .content-section-four button a{
     text-decoration: none;
@@ -197,31 +248,30 @@ footer{
     border: 1px dashed black;
  }
  .debug header{
-    background-color:lightgray;
+    /* background-color:lightgray; */
  }
  .debug .header-top div ul li{
-    border: 1px dashed red;
-    background-color: aqua;
+    /* border: 1px dashed red;
+    background-color: aqua; */
  }
  .debug .header-bottom{
-    background-color: lightskyblue;
  }
  .debug .doppio-header-bottom{
-    height: 300px;
+    
 }
 .debug .content-header{
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 .debug .img-header{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 .debug .items-main-head div{
-    border: 1px dashed red;
-    height: 400px;
-    background-color: lightpink;
+    /* border: 1px dashed red; */
+    /* height: 600px; */
+    /* background-color: lightpink; */
 }
 .debug .title-main-head{
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
 }
 .debug .bottom-section-one{
     background-color: violet;
