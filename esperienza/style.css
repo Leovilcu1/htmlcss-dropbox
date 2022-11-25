@@ -1,0 +1,32 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERALI */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* HEADER */
+.header-top div ul li{
+    display: inline-block;
+    
+}
+.header-top div ul li a{
+    color: gray;
+    
+}
+.header-top div ul li:not( .btn){
+    font-size: 20px;
+}

@@ -29,6 +29,10 @@
     cursor: pointer;
     text-align: center;
 }
+.my-btn:hover{
+    opacity: 0.7;
+}
+
 a{
     text-decoration: none;
 }
@@ -38,6 +42,24 @@ a{
 }
  /* HEADER */
 /*HEADER-TOP */
+header
+.item-header{
+    z-index: 30;
+    position: absolute;
+    background-color: white;  
+    top: 46px;
+    left: 114px;
+    display: none;
+}
+.item-header ul li:hover{
+    background-color: white;
+}
+.click-header{
+    display: block;
+}
+.click-header:hover .item-header{
+    display: block;
+}
 .header-top{
     position: fixed;
     z-index: 30;
@@ -47,8 +69,10 @@ a{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    height: 46px;
     font-size: 13px;
     background-color: #fff;
+    padding: 0 10px;
 }
 #logo-header{
     display: inline-block;
@@ -58,17 +82,12 @@ a{
     display: inline-block;
     padding: 15px 10px;
     vertical-align: middle;
-    
+
 }
 .header-top div ul li:not(#logo-header ,#button-head):hover{
     background-color: lightgray;
 }
-.header-top div ul li:not(#logo-header):hover{
-    box-shadow:inset 0px -3px 0px 0px #000000;
-    
-}
 .header-top div ul li a:not(.btn-header){
-    padding: 15px;
     color:gray;
 }
 .nav-sx-header ul li img{
@@ -78,14 +97,11 @@ a{
     padding: 5px 10px;
     color: white;
 }
-.my-btn:hover{
-    opacity: 0.7;
-}
 
 /* HEADER-BOTTOM */
 .header-bottom{
-    margin-top: 20px;
-    padding-top: 60px;
+    padding-top: 70px;
+  
     background-color:#b4d0e7;
 }
 .title-header-bottom{
@@ -291,14 +307,11 @@ a{
 #green-box{
     background-color:#a2d39b ;
 }
-#green-box:hover{
-    box-shadow: inset 0 0 0 15px #bde5b9;
-}
 #burgundy-box{
     background-color:#61082b;
 }
-#burgundy-box:hover{
-    box-shadow: inset 0 0 0 15px #841441;
+.big-box >div:hover{
+    box-shadow:inset 0px 0px 36px 22px rgba(0,0,0,0.5);
 }
 #middle-blue-box{
     background-color:#0093ce ;
@@ -343,25 +356,29 @@ a{
 .content-section-four button a{
     color: black;
 }
-.titolo-footer-main{
-    padding-bottom:20px ;
+/* section-footer-main */
+.main-footer h2{
+    padding-bottom: 30px;
 }
-.footer-main{
-    padding-bottom: 80px;
-}
-.items-footer-main p{
+.item-main-footer{
     padding: 20px 0;
+}
+.content-item-main{
+    display: none;
     font-size: 13px;
 }
-.items-footer-main span{
-    padding-right: 20px;
-    font-size: 12px;
+.chevron-main-footer{
+    margin-right: 20px;
 }
-.items-footer-main div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.items-main-footer:hover .content-item-main {
+    display:block;
+    padding-bottom: 20px;
 }
+.items-main-footer:hover .chevron-main-footer {
+   transform: rotate(180deg);
+}
+
+/* footer */
 footer{
     background-color: black;
     color: white;
@@ -382,6 +399,9 @@ footer{
 .footer-top div ul li{
     list-style: none;
 }
+.footer-top div ul li a:hover{
+    box-shadow:inset 0px -1px 0px 0px #ffffff;
+}
 .footer-top >div{
     width: 20%;
 }
@@ -393,6 +413,9 @@ footer{
     border-top: 2px solid white;
     font-size: 12px;
 }
+
+
+
 
 
 
